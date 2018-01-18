@@ -18,7 +18,19 @@ function currentLine(katzDeliLine) {
   var lineLength = katzDeliLine.length;
 
   if (lineLength > 0) {
-    "The line is currently: "
+    switch(lineLength) {
+      case 1:
+        "The line is currently: 1. " + katzDeliLine[0]
+        break;
+
+      case 2:
+        "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1]
+        break;
+
+      case 3:
+        "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1] + ", 3. " + katzDeliLine[2]
+        break;                
+    }
   } else {
     return "The line is currently empty."
   }
