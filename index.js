@@ -20,15 +20,15 @@ function currentLine(katzDeliLine) {
   if (lineLength > 0) {
     switch(lineLength) {
       case 1:
-        "The line is currently: 1. " + katzDeliLine[0]
+        return "The line is currently: 1. " + katzDeliLine[0]
         break;
 
       case 2:
-        "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1]
+        return "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1]
         break;
 
       case 3:
-        "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1] + ", 3. " + katzDeliLine[2]
+        return "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1] + ", 3. " + katzDeliLine[2]
         break;
     }
   } else {
