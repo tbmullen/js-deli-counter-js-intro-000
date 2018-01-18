@@ -29,7 +29,7 @@ function currentLine(katzDeliLine) {
 
       case 3:
         "The line is currently: 1. " + katzDeliLine[0] + ", 2. " + katzDeliLine[1] + ", 3. " + katzDeliLine[2]
-        break;                
+        break;
     }
   } else {
     return "The line is currently empty."
